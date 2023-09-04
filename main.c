@@ -9,7 +9,9 @@
 
 #include <string.h>
 #include <stdlib.h>
-
+#define PICOWOTA_WIFI_SSID "your_wifi_ssid"
+#define PICOWOTA_WIFI_PASS "your_wifi_ssid_password"
+#define PICOWOTA_WIFI_AP 1
 #include "RP2040.h"
 #include "pico/critical_section.h"
 #include "pico/time.h"
